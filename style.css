@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: grey;
+  font-family: sans-serif;
+  padding: 5em;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+h1 {
+  margin-bottom: 0.5em;
+}
+
+/* Search form styles */
+.search-data,
+.game-search-btn {
+  padding: 0.3em;
+  border: none;
+}
+
+form {
+  margin-bottom: 1em;
+}
+
+.game-search-btn:hover {
+  cursor: pointer;
+}
+
+/* Individual game styles */
+.game-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.game-data {
+  padding: 1em;
+  text-align: center;
+}
+
+.game-price {
+  padding: 0.3em 0;
+}
+
+.game-image {
+  max-height: 18em;
+}
